@@ -99,3 +99,42 @@ address {
   display: flex;
   align-items: center;
 }
+
+/* HERO */
+
+.hero{
+ background-color: rgb(70, 75, 73);
+
+ padding-top: 259px;
+ padding-bottom: 284px;
+ text-align: center;
+}
+
+.hero-title{
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+    color: #E9E9E9;
+
+    margin-bottom: 45px;
+}
+
+.hero-text{
+    font-size: 22px;
+    line-height: 1.67;
+    color: #E9E9E9;
+
+    margin-bottom: 29px;
+}
+
+.hero-btn{
+    background-color: var(--accent-color);
+    border-radius: 5px;
+
+    line-height: 1.56;
+    color: var(--secondary-text-color);
+
+    padding: 10px 30px 10px 41px;
+    display: inline-block;
+}
+
