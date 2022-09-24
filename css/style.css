@@ -61,3 +61,41 @@ address {
 }
 
 /* header */
+.header {
+  background-color: rgb(70, 75, 73);
+
+}
+.header .container {
+  padding: 0 50px;
+}
+.logo {
+    font-size: 35px;
+    line-height: 1.21;
+    color: var(--secondary-text-color);
+    margin-right: auto;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+
+.header-nav-link {
+    line-height: 1.56;
+    color:var(--secondary-text-color);
+    
+    padding: 21px 0;
+    display: block;
+}
+
+.header-nav 
+{
+  display: flex;
+  align-items: center;
+}
