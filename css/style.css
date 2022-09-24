@@ -181,3 +181,50 @@ address {
   text-align: center;
   color: var(--primary-text-color);
 }
+
+/* solution */
+
+.solution .container {
+  display: flex;
+  padding: 0;
+}
+
+.solution-subtitle {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    color: var(--secondary-text-color);
+    margin-bottom: 5px;
+}
+
+.solution-title {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: var(--secondary-text-color);
+    margin-bottom: 26px;
+}
+
+.solution-text {
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  margin-bottom: 17px;
+} 
+
+.solution-content-wrapper {
+  background-color: var(--accent-color);
+  width: 50%;
+  padding: 84px 44px 84px 30px;
+}
+
+.solution-btn {
+  background-color:transparent ;
+  color: var(--secondary-text-color);
+  border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+
+    padding: 11px 27px 12px 42px;
+
+    display: inline-block;
+}
