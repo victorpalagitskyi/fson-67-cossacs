@@ -347,3 +347,21 @@ address {
 .cases-item {
   width: calc((100% - 24px) / 4);
 }
+
+
+/* blog */
+
+.blog .container{
+  display: flex;
+  padding:0 ;
+}
+
+.blog-content-wrapper{
+background-color:#0284D0 ;
+padding: 112px 66px 113px 30px;
+width: 50%;
+}
+
+.blog-btn{
+  padding: 11px 31px 10px 42px ;
+}
