@@ -93,7 +93,9 @@ address {
 
 /* header */
 .header {
-  background-color: rgb(70, 75, 73);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 .header .container {
@@ -101,14 +103,23 @@ address {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+
   font-size: 35px;
   line-height: 1.21;
   color: var(--secondary-text-color);
   margin-right: auto;
 }
 
+.logo-icon {
+  fill: var(--accent-color);
+  margin-right: 10px;
+}
+
 .accent {
   color: var(--accent-color);
+  margin-right: 12px;
 }
 
 .header-list {
@@ -123,6 +134,26 @@ address {
 
   padding: 21px 0;
   display: block;
+
+  transition: color 250ms linear;
+  position: relative;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-nav-link:hover::after,
+.header-nav-link:focus::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--accent-color);
 }
 
 .header-nav {
@@ -138,6 +169,14 @@ address {
   padding-top: 259px;
   padding-bottom: 284px;
   text-align: center;
+
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -158,7 +197,23 @@ address {
 }
 
 .hero-btn {
-  padding: 10px 30px 10px 41px;
+  padding: 10px 30px 10px 27px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--secondary-text-color);
+  color: var(--accent-color);
+}
+
+.icon-btn {
+  fill: currentColor;
 }
 
 /* ABOUUT */
