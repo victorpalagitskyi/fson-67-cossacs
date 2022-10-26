@@ -1,0 +1,16 @@
+.button {
+  line-height: 1.56;
+  text-align: center;
+  color: var(--secondary-text-color);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.dark {
+  background-color: var(--accent-color);
+}
+
+.ligth {
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+}

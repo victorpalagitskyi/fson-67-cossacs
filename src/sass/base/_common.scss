@@ -1,0 +1,14 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--primary-text-color);
+  font-size: 18px;
+  background-color: var(--secondary-text-color);
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 0 28px;
+}

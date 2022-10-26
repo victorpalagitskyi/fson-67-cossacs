@@ -1,0 +1,16 @@
+.solution {
+  .container {
+    display: flex;
+    padding: 0;
+  }
+
+  &-content-wrapper {
+    background-color: var(--accent-color);
+    width: 50%;
+    padding: 84px 44px 84px 30px;
+  }
+
+  &-btn {
+    padding: 11px 27px 12px 42px;
+  }
+}
