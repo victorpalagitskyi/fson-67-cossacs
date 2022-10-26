@@ -1,0 +1,60 @@
+.team {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  &-list {
+    display: flex;
+    gap: 22px;
+  }
+
+  img {
+    margin-bottom: 13px;
+  }
+
+  &-name {
+    margin-bottom: 12px;
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.27;
+  }
+
+  &-position {
+    line-height: 1.56;
+  }
+
+  &-overlay {
+    position: relative;
+    cursor: pointer;
+
+    &:hover .team-soc-list {
+      opacity: 1;
+    }
+
+    &:hover .team-img {
+      transform: scale(1.02);
+    }
+  }
+
+  &-img {
+    transition: transform 500ms ease;
+  }
+
+  &-soc-list {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    gap: 25px;
+
+    transition: opacity 500ms ease;
+  }
+
+  .soc-icon {
+    fill: var(--secondary-text-color);
+  }
+}
