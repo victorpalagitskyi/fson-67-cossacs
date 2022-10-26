@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--primary-text-color);
+    padding: 20px 0 16px 0;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    line-height: 1.56;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-icon {
+    fill: var(--secondary-text-color);
+}
