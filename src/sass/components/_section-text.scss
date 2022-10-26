@@ -1,0 +1,13 @@
+.section-text {
+  line-height: 1.56;
+
+  &-dark {
+    color: var(--primary-text-color);
+    margin-bottom: 39px;
+  }
+
+  &-light {
+    color: var(--secondary-text-color);
+    margin-bottom: 17px;
+  }
+}

@@ -1,0 +1,48 @@
+.about {
+  padding-top: 40px;
+  padding-bottom: 19px;
+  background-color: #f4f4f4;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.about .container {
+  padding-right: 66px;
+  padding-left: 66px;
+}
+
+.about-list {
+  display: flex;
+  gap: 71px;
+}
+
+.about-title {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.about-text {
+  line-height: 1.56;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.abaut-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+
+.abaut-icon {
+  fill: var(--secondary-text-color);
+}
