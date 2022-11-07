@@ -1,0 +1,30 @@
+.slick {
+  background-color: #eeecec;
+  padding: 200px 0;
+
+  &-box {
+    background-color: #5e5e5e;
+    padding: 50px;
+    height: 400px;
+  }
+
+  &-title {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  img {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}
+
+.slick-dots li button:before {
+  color: green;
+}

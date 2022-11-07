@@ -1,6 +1,18 @@
 .cases {
   padding: 50px 0;
   text-align: center;
+
+  &-img {
+    transition: transform 500ms ease;
+  }
+
+  &-img:hover {
+    transform: scale(1.05);
+  }
+
+  &-img-wrapper {
+    overflow: hidden;
+  }
 }
 
 .cases-list {
@@ -12,4 +24,8 @@
 
 .cases-item {
   width: calc((100% - 24px) / 4);
+}
+
+.sl-wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
